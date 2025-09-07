@@ -1,11 +1,17 @@
-# NextBank - AI-Powered Loan Application System
+# CogniBank - AI-Powered Loan Application System
 
 A modern, integrated loan application system with professional Next.js frontend and FastAPI backend, supporting multiple loan types with AI-powered chatbot interface.
+
+## 🌐 Live Demo
+
+**Experience CogniBank live:** [https://cogni-sand.vercel.app/](https://cogni-sand.vercel.app/)
+
+CogniBank offers comprehensive banking solutions with AI-powered loan processing, instant eligibility checks, and competitive rates.
 
 ## 🌟 Key Features
 
 - **🤖 AI-Powered Chatbot**: Natural conversation flow with instant loan eligibility
-- **🏦 Multi-Loan Support**: Education, Home, and Personal loans
+- **🏦 Multi-Loan Support**: Education, Home, Personal, Business, Car, and Gold loans
 - **⚡ Real-time Predictions**: Instant loan amount and interest rate calculation
 - **📱 Modern UI**: Professional Next.js frontend with responsive design
 - **📊 Admin Dashboard**: View applications and statistics
@@ -35,8 +41,9 @@ npm run dev
 
 ## 🌐 Access Points
 
-- **Frontend**: http://localhost:3000 (Next.js Banking Website)
-- **Backend API**: http://localhost:8001
+- **Live Website**: [https://cogni-sand.vercel.app/](https://cogni-sand.vercel.app/) (CogniBank Production)
+- **Local Frontend**: http://localhost:3000 (Next.js Banking Website)
+- **Local Backend API**: http://localhost:8001
 - **API Documentation**: http://localhost:8001/docs
 - **Admin Dashboard**: `python admin_dashboard.py`
 
@@ -55,6 +62,9 @@ npm run dev
 │   ├── education_loan.py     # Education loan logic
 │   ├── home_loan.py          # Home loan logic
 │   ├── personal_loan.py      # Personal loan logic
+│   ├── business_loan.py      # Business loan logic
+│   ├── car_loan.py           # Car loan logic
+│   ├── gold_loan.py          # Gold loan logic
 │   └── loan_factory.py       # Service factory
 ├── customer_data/             # Customer data storage
 ├── models/                    # ML models by loan type
